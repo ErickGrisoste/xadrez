@@ -1,15 +1,114 @@
 body{
     background-color: rgb(130, 139, 139);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .tabuleiro{
+    position: absolute;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    gap: 0;
-    button{
-        padding: 30px;
-        background-color: white;
-        border: 10px 0 white;
-    }
-    
 }
+    
+button{
+     width: 50px;
+     height: 50px;
+     background-color: #fffafa;
+     border: 1px solid black;
+ }
+
+.preto{
+    background-color: #adc6e6;    
+}
+
+button:hover{
+      border: 1px solid red;
+}
+
+#torrePreta{
+    background-image: url(../img/torrePreta.png);
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+}
+
+#cavaloPreto{
+    background-image: url(../img/cavaloPreto.png);
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+}
+
+#bispoPreto{
+    background-image: url(../img/bispoPreto.png);
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+}
+
+#rainhaPreta{
+    background-image: url(../img/rainhaPreta.png);
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+}
+
+#reiPreto{
+    background-image: url(../img/reiPreto.png);
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+}
+
+#peaoPreto{
+    background-image: url(../img/peaoPreto.png);
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+}
+
+#peaoBranco{
+    background-image: url(../img/peaoBranco.png);
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+}
+
+#torreBranca{
+    background-image: url(../img/torreBranca.png);
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+}
+
+#cavaloBranco{
+    background-image: url(../img/cavaloBranco.png);
+    background-size: contain;
+    background-position: center;
+    width: 50px; 
+}
+
+#bispoBranco{
+    background-image: url(../img/bispoBranco.png);
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+}
+
+#rainhaBranca{
+    background-image: url(../img/rainhaBranca.png);
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+}
+
+#reiBranco{
+    background-image: url(../img/reiBranco.png);
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+}
+
+
