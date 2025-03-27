@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(130, 139, 139);
+}
+
+.tabuleiro{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 0;
+    button{
+        padding: 30px;
+        background-color: white;
+        border: 10px 0 white;
+    }
+    
+}
