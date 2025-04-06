@@ -12,99 +12,102 @@ body{
     grid-template-columns: repeat(8, 1fr);
 }
     
-button{
-     width: 50px;
-     height: 50px;
-     background-color: #fffafa;
-     border: 1px solid black;
- }
+.casa {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
 
-.preto{
-    background-color: #adc6e6;    
+.clara {
+    background-color: #fffafa;
+}
+
+.preta {
+    background-color: #adc6e6;
 }
 
 button:hover{
       border: 1px solid red;
 }
 
-#torrePreta{
+.torrePreta{
     background-image: url(../img/torrePreta.png);
     background-size: contain;
     background-position: center;
     width: 50px;
 }
 
-#cavaloPreto{
+.cavaloPreto{
     background-image: url(../img/cavaloPreto.png);
     background-size: contain;
     background-position: center;
     width: 50px;
 }
 
-#bispoPreto{
+.bispoPreto{
     background-image: url(../img/bispoPreto.png);
     background-size: contain;
     background-position: center;
     width: 50px;
 }
 
-#rainhaPreta{
+.rainhaPreta{
     background-image: url(../img/rainhaPreta.png);
     background-size: contain;
     background-position: center;
     width: 50px;
 }
 
-#reiPreto{
+.reiPreto{
     background-image: url(../img/reiPreto.png);
     background-size: contain;
     background-position: center;
     width: 50px;
 }
 
-#peaoPreto{
+.peaoPreto{
     background-image: url(../img/peaoPreto.png);
     background-size: contain;
     background-position: center;
     width: 50px;
 }
 
-#peaoBranco{
+.peaoBranco{
     background-image: url(../img/peaoBranco.png);
     background-size: contain;
     background-position: center;
     width: 50px;
 }
 
-#torreBranca{
+.torreBranca{
     background-image: url(../img/torreBranca.png);
     background-size: contain;
     background-position: center;
     width: 50px;
 }
 
-#cavaloBranco{
+.cavaloBranco{
     background-image: url(../img/cavaloBranco.png);
     background-size: contain;
     background-position: center;
     width: 50px; 
 }
 
-#bispoBranco{
+.bispoBranco{
     background-image: url(../img/bispoBranco.png);
     background-size: contain;
     background-position: center;
     width: 50px;
 }
 
-#rainhaBranca{
+.rainhaBranca{
     background-image: url(../img/rainhaBranca.png);
     background-size: contain;
     background-position: center;
     width: 50px;
 }
 
-#reiBranco{
+.reiBranco{
     background-image: url(../img/reiBranco.png);
     background-size: contain;
     background-position: center;
